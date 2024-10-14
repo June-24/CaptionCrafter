@@ -14,6 +14,8 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+# Load the API key from secrets
+groq_api_key = st.secrets["GROQ"]["API_KEY"]
 
 # Load the tokenizer and local model (already saved)
 @st.cache_resource
@@ -144,7 +146,7 @@ def main():
 
     # API Key input for Groq Cloud service
     use_groq_cloud = st.checkbox("Use Groq Cloud for caption generation")
-    groq_api_key = os.getenv("GROQ_API_KEY")
+    # groq_api_key = os.getenv("GROQ_API_KEY")
     
     # st.write(
     #         'You can get your API key from [Groq Cloud Console](https://console.groq.com/keys).'
