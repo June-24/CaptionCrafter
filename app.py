@@ -10,9 +10,9 @@ import pickle
 from groq import Groq
 from langchain_groq import ChatGroq
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # Load environment variables from .env file
-load_dotenv()
+# load_dotenv()
 
 # Load the API key from secrets
 groq_api_key = st.secrets["GROQ"]["API_KEY"]
@@ -147,11 +147,6 @@ def main():
     # API Key input for Groq Cloud service
     use_groq_cloud = st.checkbox("Use Groq Cloud for caption generation")
     # groq_api_key = os.getenv("GROQ_API_KEY")
-    
-    # st.write(
-    #         'You can get your API key from [Groq Cloud Console](https://console.groq.com/keys).'
-    #     )
-    # groq_api_key = st.text_input("Enter your Groq Cloud API key", type="password")
 
     # Upload an image
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
