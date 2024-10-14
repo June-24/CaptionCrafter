@@ -2,7 +2,7 @@
 
 # Image Caption Generator with Deep Learning and Groq Cloud
 
-deployed [CaptionCrafter](https://caption-crafter.streamlit.app/)
+deployed at: [CaptionCrafter](https://caption-crafter.streamlit.app/)
 
 ## Overview
 
