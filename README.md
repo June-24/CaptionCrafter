@@ -1,12 +1,12 @@
-# CaptionCrafter
-
 # Image Caption Generator with Deep Learning and Groq Cloud
 
-deployed at: [CaptionCrafter](https://caption-crafter.streamlit.app/)
+
 
 ## Overview
 
 This project is an **Image Caption Generator** application built using **Streamlit**. It leverages deep learning models to generate captions for images using a local trained model and also utilizes **Groq Cloud** for advanced caption generation. The application aims to provide users with catchy Instagram captions, relevant hashtags, and comments to enhance their social media presence.
+
+deployed at: [CaptionCrafter](https://caption-crafter.streamlit.app/)
 
 ## Features
 
@@ -28,10 +28,7 @@ This project is an **Image Caption Generator** application built using **Streaml
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/June-24/CaptionCrafter
-   ```
+1. Clone the repository
 
 2. Install the required dependencies:
    ```bash
